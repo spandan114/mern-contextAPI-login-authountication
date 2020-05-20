@@ -1,0 +1,42 @@
+@media (max-width: 992px) {
+  .mobilemenu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 60%;
+    margin-top: 57px !important;
+    background-color: black !important;
+    margin: auto;
+    transform: translateX(-100%);
+    transition: all ease 0.25s;
+  }
+  .open {
+    transform: translatex(0);
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  .open {
+    display: block;
+  }
+}
+/*  =========== FOR RIGHT NAV ========
+.n-right{
+  left: auto;
+  right:0;
+  transform: translateX(-100%);
+ }
+*/
+
+.App{
+  max-width: 30rem;
+  margin: 4rem auto;
+}
