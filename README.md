@@ -15,7 +15,7 @@
     <p><b>Portfolio:</b>https://spandan114.github.io/spandanjoshi-portfolio/</p>
 </div
 <div>
-    <p><b>Email:</b> @kaboo_bear </p>
+    <p><b>Email:</b> spandanj685@gmail.com </p>
 </div>
 <div>
     <p><b>Whatsapp:</b>91+ 9348982470 </p>
