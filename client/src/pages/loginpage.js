@@ -98,7 +98,6 @@ export default function Loginpage() {
           <Button className="btn btn-block btn-info" onClick={()=>PostData()}>Login</Button>
 
           <Link className="text-danget" to="/Forhotpassword">Forhotpassword</Link>
-          <Link className="text-danget" to="/reset">reset</Link>
         
       </Container>
 
