@@ -5,19 +5,19 @@ import Registerpage from './pages/registerpage'
 import Navbarcomponent from './components/navbarcomponent'
 import AuthContextProvider from './contexts/AuthContext'
 import { AuthContext } from './contexts/AuthContext'
-import {useHistory} from 'react-router-dom'
+// import {useHistory} from 'react-router-dom'
 import Homepage from './pages/homepage';
+import Forhotpassword from './pages/Forhotpassword';
+import ResetPassword from './pages/ResetPassword';
 
 const Routing = ()=>{
 
   const {state,dispatch} = useContext(AuthContext)
-  const history = useHistory()
+  // const history = useHistory()
   useEffect(()=>{
     const user = JSON.parse(localStorage.getItem("user"))
     if(user){
       dispatch({type:"USER",payload:user})
-    }else{
-      history.push('/login')
     }
   },[])
 
@@ -35,6 +35,14 @@ const Routing = ()=>{
 
       <Route exact path="/register" >
       <Registerpage/>
+      </Route>
+
+      <Route exact path="/Forhotpassword" >
+      <Forhotpassword/>
+      </Route>
+
+      <Route exact path="/reset/:token" >
+      <ResetPassword/>
       </Route>
       
     </Switch>

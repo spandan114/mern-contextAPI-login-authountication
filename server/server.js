@@ -1,10 +1,22 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const {MONGO_URI} = require('./config/key')
-
+// var nodemailer = require('nodemailer');
+// var sgTransport = require('nodemailer-sendgrid-transport');
 
 
 const app = express();
+
+//=========== NODE MAILER ===================//
+
+// var transporter = {
+//   auth: {
+//     // api_user: 'SENDGRID_USERNAME',
+//     api_key: SEBDGRID_KEY
+//   }
+// }
+
+// var client = nodemailer.createTransport(sgTransport(transporter));
 
 //============= MONGOOSE SETTING ==============//
 mongoose

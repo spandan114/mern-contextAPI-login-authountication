@@ -63,7 +63,7 @@ export default function Registerpage() {
         setError(data.error)
        }
        else{
-         History.push("/login")
+         history.push('/login')
            console.log(data.message)
        }
     }).catch(err=>{

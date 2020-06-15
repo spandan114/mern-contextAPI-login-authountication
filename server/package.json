@@ -4,17 +4,20 @@
   "description": "mern context api boiler plate with login registration",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "author": "spandan joshi",
   "license": "MIT",
   "dependencies": {
+    "@sendgrid/mail": "^7.2.0",
     "bcryptjs": "^2.4.3",
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
     "jquery": "^3.5.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.10",
+    "nodemailer": "^6.4.8",
+    "nodemailer-sendgrid-transport": "^0.2.0",
     "popper.js": "^1.16.1",
     "react-router-dom": "^5.1.2",
     "react-strap": "0.0.1"

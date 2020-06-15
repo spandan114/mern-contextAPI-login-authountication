@@ -1,4 +1,4 @@
 module.exports = {
-    MONGO_URI:"YOUR MONGO URI",
-    JWT_SECRET:"efwejgrihdlndfkjehnvduwdqwrughkjnvdjb"
+    MONGO_URI:"mongodb://127.0.0.1:27017/loginauth",
+    JWT_SECRET:"efwejgrihdlndfkjehnvduwdqwrughkjnvdjb",
 }
