@@ -16,7 +16,7 @@
     "jquery": "^3.5.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.10",
-    "nodemailer": "^6.4.8",
+    "nodemailer": "^6.4.16",
     "nodemailer-sendgrid-transport": "^0.2.0",
     "popper.js": "^1.16.1",
     "react-router-dom": "^5.1.2",
